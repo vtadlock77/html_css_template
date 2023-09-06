@@ -57,7 +57,7 @@ section h2 {
 
 /* Style images within sections */
 section img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     display: block;
     margin: 10px 0;
