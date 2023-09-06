@@ -1,0 +1,79 @@
+/* Reset some default browser styles */
+html, body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a basic page background color and font style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #daffcd;
+    color: #000000;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 1em 1em;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    text-align: left;
+    background-color: #444;
+    padding: 1em 1em;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Style section headings */
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Style images within sections */
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Add responsive styles */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
